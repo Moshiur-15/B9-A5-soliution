@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- tailwindCss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Raleway font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/233bd69685.js" crossorigin="anonymous"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#1dd100',
+                secondary: '#030712',
+                couponOne: '#ffbf0f',
+                couponTwo: '#f78c9c',
+                mobileMenu: '#f7f8f8',
+                body: 'rgb(247, 248, 248)',
+                buttonColor: 'rgba(29, 209, 0, 0.15)',
+
+              },
+              fontFamily:{
+                Raleway: "Raleway",
+                Inter: "Inter"
+              },
+            },
+          },
+        }
+    </script>
+</head>
+<body>
+    
+
+  <main class="bg-body pt-14 pb-14">
+
+    <section class="bg-white  px-8 py-5 w-11/12 mx-auto rounded-2xl shadow-sm grid grid-cols-3 gap-5">
+
+      <!-- Select Your Seat .step:-1 -->
+      <div class="col-span-2">
+        <div>
+          <h2>Select Your Seat</h2>
+        </div>
+
+        <div class="border-b-2 border-dashed my-4"></div>
+    
+        <div class="flex justify-between">
+          <p class="flex items-center">
+            <img src="./images/seat-gray.png" alt="">
+            <span>Available</span>
+          </p>
+
+          <p class="flex items-center">
+            <img src="./images/seat-green.png" alt="">
+            <span>Available</span>
+          </p>
+        </div>
+
+        <div class="border-b-2 border-dashed my-4"></div>
+      </div>
+
+      <!-- Select Your Seat .step:-2 -->
+      <div class=" bg-green-500"> input  Field</div>
+
+      <!-- seat section starts -->
+      <!-- <section class="grid grid-cols-12 gap-y-6 mr-20 font-inter"> -->
+        <!-- front seat -->
+        <!-- <p class="col-span-1"></p>
+
+        <div class="col-span-11 grid grid-cols-10 gap-16 items-center text-center"></div>
+
+        <p class="col-span-8"></p>   
+        <button class="">
+          <img src="./images/" alt="">
+        </button>
+      </section> -->
+      <!-- seat section ends -->
+    </section>
+  </main>
+</body>
+</html>
